@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Intranet</title>
+    <link rel="stylesheet" href="/public/css/app.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/public/favicon/site.webmanifest">
+
+</head>
+<body>
+  <header class="header">
+    <h1><img src="/public/asset/android-chrome-192x192.png"> Intranet</h1>
+    <nav>
+        <ul>
+            <li>
+               <a href="./connecte.html"><img src="/public/asset/connexion.png"> Connexion</a>
+            </li>
+        </ul>
+    </nav>
+  </header>
+<main>
+  <section class="container">
+    <h2> Connexion </h2>
+    <p> Pour vous connecter, entrez votre identifiant et mot de passe. </p>
+    <fieldset>
+            <form action="./connecte.html" method="post">
+            
+                <label for="mail">
+                   Email :
+                </label>
+                <input type="text" id="mail" name="mail" placeholder="Votre Mail">
+                <label for="psw">
+                    Mot de passe :
+                </label>
+                <input type="password" id="psw" name="psw" placeholder="Votre mot de passe" >
+                <input class="button" type="submit" value=" Connexion">
+            </form>
+        </fieldset>
+</section>
+</main>
+<footer>
+    <p> &copy; Abdulrahman - Projet M2L  </p>
+</footer>
+</body>
+</html>
